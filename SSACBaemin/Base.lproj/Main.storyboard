@@ -750,6 +750,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNu-R0-go3">
+                                <rect key="frame" x="151" y="508" width="113" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="찜한 상품"/>
+                                <connections>
+                                    <segue destination="DJQ-lg-tVs" kind="show" id="RAK-re-SFd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pxQ-6U-89b"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -759,6 +769,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lcj-BN-7vg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2402.898550724638" y="838.39285714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0gA-Ko-hgW">
+            <objects>
+                <viewController id="DJQ-lg-tVs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lDJ-Xk-l2d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hCI-Fs-ffB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2U3-hl-o3X"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYI-3P-QSR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3181" y="838"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hVd-Ne-0Nn">
@@ -819,6 +845,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w33-FG-hGX">
+                                <rect key="frame" x="142" y="507" width="131" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="상세 주문내역"/>
+                                <connections>
+                                    <segue destination="5Lh-R8-yHj" kind="show" id="Obc-qo-7zl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zju-Yd-X4c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -827,7 +863,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6gd-Xw-xW2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1114" y="1505"/>
+            <point key="canvasLocation" x="1113.0434782608697" y="1504.6875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3ee-xk-Lgy">
+            <objects>
+                <viewController id="5Lh-R8-yHj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lRf-y3-Ne5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Eo1-4P-R6f"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QmO-FT-znR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HBo-SI-VeF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1868" y="1505"/>
         </scene>
         <!--주문내역-->
         <scene sceneID="2m1-oQ-w2T">
